@@ -218,11 +218,10 @@ def print_toad_14():
     print("\033[30m {}" .format(""))
 
 
-# Main program
+
 clear_term()
 out_text("         Какая ты сегодня жабка?       ")
 print_toad_1()
-# print_toad_12()
 time.sleep(2)
 
 symbol = ["               #!5!.#-=04#             ", "               1#!6!4#/=\             "]
@@ -239,35 +238,14 @@ select_text()
 
 clear_term()
 
-num_toad = random.randint(1, 14)
-if num_toad == 1:
-    print_toad_1()
-if num_toad == 2:
-    print_toad_2()
-if num_toad == 3:
-    print_toad_3()
-if num_toad == 4:
-    print_toad_4()
-if num_toad == 5:
-    print_toad_5()
-if num_toad == 6:
-    print_toad_6()
-if num_toad == 7:
-    print_toad_7()
-if num_toad == 8:
-    print_toad_8()
-if num_toad == 9:
-    print_toad_9()
-if num_toad == 10:
-    print_toad_10()
-if num_toad == 11:
-    print_toad_11()
-if num_toad == 12:
-    print_toad_12()
-if num_toad == 13:
-    print_toad_13()
-if num_toad == 14:
-    print_toad_14()
+
+switch_toad_select = [print_toad_2, print_toad_3, print_toad_4,
+print_toad_5, print_toad_6, print_toad_7, print_toad_8,
+print_toad_9, print_toad_10, print_toad_11, print_toad_12,
+print_toad_13, print_toad_14]
+
+switch_toad_select[random.randint(1, 13)]()
+
 
 print("")
 print("")
