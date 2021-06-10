@@ -3,7 +3,7 @@
 The project was created to find out what kind of toad you are
 
 ```bash
-             _         _
+              _         _
   __   ___.--'_`.     .'_`--.___   __
  ( _`.'. -   'o` )   ( 'o`   - .`.'_ )
  _\.'_'      _.-'     `-._      `_`./_
