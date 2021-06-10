@@ -2,6 +2,7 @@
 
 The project was created to find out what kind of toad you are
 
+```bash
              _         _
   __   ___.--'_`.     .'_`--.___   __
  ( _`.'. -   'o` )   ( 'o`   - .`.'_ )
@@ -9,7 +10,7 @@ The project was created to find out what kind of toad you are
 ( \`. )    //\`         '/\\    ( .'/ )
  \_`-'`---'\\__,       ,__//`---'`-'_/
    `                               '  
-
+```
 
 ## Try it out in your terminal:
 Clone the project
