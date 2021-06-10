@@ -1,4 +1,4 @@
-# which.toad.am.i
+# which.toad.am.i 🐸
 
 The project was created to find out what kind of toad you are
 
@@ -16,6 +16,11 @@ cd which.toad.am.i
 Run 
 ```bash
 python toad.py
+```
+
+Or just copy command
+```bash
+git clone https://github.com/MaxKulakov/which.toad.am.i.git && cd which.toad.am.i && python toad.py
 ```
 
 ## Thanks for Art 
